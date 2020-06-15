@@ -15,7 +15,8 @@
     "promise-queue": "^2.2.5"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "export PODCAST_DIR=download && export PODCAST_FEEDS=download/podcasts.config.json && node index.js"
   },
   "author": "",
   "license": "ISC"
