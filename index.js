@@ -9,6 +9,8 @@ const f = new Feed(feedFilePath);
 const files = new Files(podcastDir);
 const currentFiles = files.All();
 
+console.log(currentFiles);
+
 f.on('data', (d) => {
     const e = new Episodes(d);
     e.on('data', (podcast) => {
