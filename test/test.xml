@@ -1,0 +1,58 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:spotify="http://www.spotify.com/ns/rss"
+    xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+    xmlns:pp="http://www.podplay.com/ns/rss/1.0" version="2.0">
+    <channel>
+        <title>The Frank Skinner Show</title>
+        <description><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit down and enjoy UK commercial radio's most popular podcast.]]></description>
+        <copyright><![CDATA[Bauer Media Group]]></copyright>
+        <language>en-GB</language>
+        <lastBuildDate>Tue, 13 Oct 2020 08:00:06 +0000</lastBuildDate>
+        <itunes:type>episodic</itunes:type>
+        <itunes:summary><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit down and enjoy UK commercial radio's most popular podcast.]]></itunes:summary>
+        <itunes:author>Absolute Radio</itunes:author>
+        <itunes:explicit>false</itunes:explicit>
+        <spotify:countryOfOrigin>gb</spotify:countryOfOrigin>
+        <link>http://absoluteradio.co.uk/schedule/the-frank-skinner-show-11/</link>
+        <itunes:owner>
+            <itunes:email>podcasts@bauermedia.co.uk</itunes:email>
+            <itunes:name>Absolute Radio</itunes:name>
+        </itunes:owner>
+        <image>
+            <title>The Frank Skinner Show</title>
+            <url>https://d46xrhm44izup.cloudfront.net/rss/?url=%2Fimg%2Fade7e58bdec864a5d8a28851284e84a1</url>
+            <link>http://absoluteradio.co.uk/schedule/the-frank-skinner-show-11/</link>
+        </image>
+        <itunes:image href="https://d46xrhm44izup.cloudfront.net/rss/?url=%2Fimg%2Fade7e58bdec864a5d8a28851284e84a1"/>
+        <itunes:category text="Comedy"/>
+        <item>
+            <description><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit down and enjoy UK commercial radio's most popular podcast. This week Frank has been on the Graham Norton show and made a faux pas. The team also discuss words that are becoming extinct, line dancing and that fly.]]></description>
+            <enclosure url="https://bauernordic-pods.sharp-stream.com/gb/1308/frank_show_10th_oct_202cbd84_normal.mp3?aw_0_1st.episodeid=73982&amp;aw_0_1st.collectionid=1308" length="66196480" type="audio/mpeg"/>
+            <guid isPermaLink="false">202cbd842f20bc7ff5d98e68a32eef2b</guid>
+            <pubDate>Sat, 10 Oct 2020 11:15:00 +0000</pubDate>
+            <title>Purple Rinse</title>
+            <itunes:subtitle><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit...]]></itunes:subtitle>
+            <itunes:summary><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit down and enjoy UK commercial radio's most popular podcast. This week Frank has been on the Graham Norton show and made a faux pas. The team also discuss words that are becoming extinct, line dancing and that fly.]]></itunes:summary>
+            <itunes:duration>01:08:57</itunes:duration>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>728</itunes:episode>
+        </item>
+        <item>
+            <description><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit down and enjoy UK commercial radio's most popular podcast. This week the team are joined by Steve Hall. Frank has had a moral dilemma and the team discuss the Presidential Debate, misophonia and ribbon bookmarks.]]></description>
+            <enclosure url="https://bauernordic-pods.sharp-stream.com/gb/1308/3rd_october_pod_17c79d55_normal.mp3?aw_0_1st.episodeid=73725&amp;aw_0_1st.collectionid=1308" length="64050176" type="audio/mpeg"/>
+            <guid isPermaLink="false">17c79d55c253216608a05a64a85150e8</guid>
+            <pubDate>Sat, 03 Oct 2020 11:15:00 +0000</pubDate>
+            <title>Spinal Ribbon</title>
+            <itunes:subtitle><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit...]]></itunes:subtitle>
+            <itunes:summary><![CDATA[Frank Skinner's on Absolute Radio every Saturday morning and you can enjoy the show's podcast right here. Radio Academy Award winning Frank, Emily and Alun bring you a show which is like joining your mates for a coffee... So, put the kettle on, sit down and enjoy UK commercial radio's most popular podcast. This week the team are joined by Steve Hall. Frank has had a moral dilemma and the team discuss the Presidential Debate, misophonia and ribbon bookmarks.]]></itunes:summary>
+            <itunes:duration>01:06:43</itunes:duration>
+            <itunes:episodeType>full</itunes:episodeType>
+            <itunes:explicit>false</itunes:explicit>
+            <itunes:season>1</itunes:season>
+            <itunes:episode>727</itunes:episode>
+        </item>
+        <item>
+            <description><![CDATA[Frank begins series 2 with a poem that made him cry in a hotel room. He shares a slice of his ‘unfashionable’ hometown in Liz Berry’s 'Birmingham Roller’.
