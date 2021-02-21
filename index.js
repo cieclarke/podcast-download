@@ -72,10 +72,13 @@ const run = (configPath, dir) => {
     f.Start();
 }
 
-cron.schedule(process.env.PODCAST_RUN_TIME, () => {
+if (!cron.validate(process.env.PODCAST_RUN_TIME)) {
     run(process.env.PODCAST_FEEDS, process.env.PODCAST_DIR);
-});
-
+} else {
+    cron.schedule(process.env.PODCAST_RUN_TIME, () => {
+        run(process.env.PODCAST_FEEDS, process.env.PODCAST_DIR);
+    });
+}
 
             //all feed files in disk
             //const filesOnDiskForPodcast = files.filter((file, index, arr) => {
