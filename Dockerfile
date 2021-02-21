@@ -2,17 +2,16 @@ FROM node:alpine
 
 RUN apk add  --no-cache ffmpeg
 
-WORKDIR /usr/src/app/podcasts  
-RUN mkdir /podcasts-download
+ENV PODCAST_FEEDS=http://192.168.1.39:3000/podcast
+ENV PODCAST_DIR=/podcasts-download
+ENV PODCAST_RUN_TIME="* 0 * * * *"
+
+WORKDIR /usr/src/app
 
 COPY package*.json ./
 
 RUN npm install
 
-COPY . . 
-COPY podcasts.config.json . 
+COPY . .
 
-ENV PODCAST_FEEDS=http://caladan:8100/podcast
-ENV PODCAST_DIR=/podcasts-download
-
-CMD [ "node", "/usr/src/app/podcasts/index.js" ]
+CMD [ "node", "index.js" ]
