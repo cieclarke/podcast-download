@@ -1,6 +1,7 @@
 FROM node:alpine
 
 RUN apk add  --no-cache ffmpeg
+RUN mkdir /podcasts-download
 
 ENV PODCAST_FEEDS=http://192.168.1.39:3000/podcast
 ENV PODCAST_DIR=/podcasts-download
