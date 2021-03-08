@@ -19,9 +19,13 @@ const run = (configPath, dir) => {
         e.on('data', (podcast) => {
             currentFiles.then((files) => {
                 const file = files.find((file, index, arr) => {
-                    return file.data.artist == podcast.artist &&
-                    file.data.album == podcast.album &&
-                    file.data.guid == podcast.guid; 
+                    if(file.data != undefined) {
+                        return file.data.artist == podcast.artist &&
+                        file.data.album == podcast.album &&
+                        file.data.guid == podcast.guid; 
+                    } else {
+                        return false;
+                    }
                 });
                 
                 if(file !== undefined) {
@@ -43,9 +47,13 @@ const run = (configPath, dir) => {
                 
                 podcasts.every((podcast) => {
                     let f = currentFile.filter((file) => {
-                        return podcast.artist === file.data.artist &&
-                        podcast.album === file.data.album &&
-                        podcast.genre === file.data.genre;
+                        if(file.data != undefined) {
+                            return podcast.artist === file.data.artist &&
+                            podcast.album === file.data.album &&
+                            podcast.genre === file.data.genre;
+                        } else {
+                            return false;
+                        }
                     });
                     
                     return f.every((file) => {
