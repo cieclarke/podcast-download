@@ -5,7 +5,7 @@ RUN mkdir /podcasts-download
 
 ENV PODCAST_FEEDS=http://192.168.1.39:3000/podcast
 ENV PODCAST_DIR=/podcasts-download
-ENV PODCAST_RUN_TIME="30 * * * *"
+ENV PODCAST_RUN_TIME="*/15 * * * *"
 
 WORKDIR /usr/src/app
 
