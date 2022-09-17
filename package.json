@@ -20,7 +20,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "local": "export PODCAST_DIR=~/podcast/download && export PODCAST_FEEDS=http://caladan:3000/podcast && node index.js",
+    "local": "export PODCAST_DIR=~/podcast/download && export PODCAST_FEEDS=http://podcast/config.json && node index.js",
     "live": "export PODCAST_DIR=/nas/Romulus/Audio/Podcasts/MediaPlayer/ && export PODCAST_FEEDS=http://caladan:8100/podcast && node index.js"
   },
   "author": "cieclarke.com",
