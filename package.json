@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "download podcasts",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "cacheable-lookup": "^4.3.0",
     "ffmetadata": "^1.6.0",
@@ -16,11 +17,12 @@
     "got": "^11.3.0",
     "lodash": "^4.17.15",
     "mocha": "^8.1.3",
+    "pino": "^8.6.1",
     "promise-queue": "^2.2.5"
   },
   "scripts": {
     "test": "mocha",
-    "local": "export PODCAST_DIR=~/podcast/download && export PODCAST_FEEDS=http://podcast/config.json && node index.js",
+    "local": "export PODCAST_DIR=~/podcast/download && export PODCAST_FEEDS=http://podcast/config_dev.json && node index.js",
     "live": "export PODCAST_DIR=/nas/Romulus/Audio/Podcasts/MediaPlayer/ && export PODCAST_FEEDS=http://caladan:8100/podcast && node index.js"
   },
   "author": "cieclarke.com",
